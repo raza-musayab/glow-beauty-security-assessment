@@ -1,1 +1,96 @@
+Glow Beauty Salon – Sample Test Data
 
+1. Introduction
+
+This document contains fictional sample data for the Glow Beauty Salon web application security assessment.
+
+The data represents realistic salon customers, beauty services, appointment bookings, and staff members.
+
+No real customer information is used.
+
+2. Salon Information
+
+Field| Details
+Salon Name| Glow Beauty Salon
+Business Type| Beauty and Skincare Salon
+Location| Peshawar, Pakistan
+Contact Email| info@example.com
+Currency| Pakistani Rupees (PKR)
+
+3. Customer Information
+
+Customer ID| Customer Name| Email
+C001| Ayesha Khan| ayesha@example.com
+C002| Fatima Ahmed| fatima@example.com
+C003| Sara Malik| sara@example.com
+C004| Hira Shah| hira@example.com
+C005| Zainab Ali| zainab@example.com
+
+All customer names and email addresses are fictional examples.
+
+4. Beauty Services
+
+Service ID| Service Name| Price
+S001| Facial Treatment| PKR 3,500
+S002| Hair Styling| PKR 2,000
+S003| Manicure| PKR 1,500
+S004| Pedicure| PKR 1,800
+S005| Bridal Makeup| PKR 12,000
+S006| Hair Treatment| PKR 4,500
+
+5. Staff Information
+
+Staff ID| Staff Name| Role
+ST001| Sara Ahmed| Beautician
+ST002| Maryam Khan| Hair Stylist
+ST003| Amina Shah| Makeup Artist
+ST004| Hina Malik| Salon Manager
+
+6. Appointment Information
+
+Booking ID| Customer| Service| Appointment Date| Status
+B001| Ayesha Khan| Facial Treatment| 20 Nov 2026| Confirmed
+B002| Fatima Ahmed| Hair Styling| 21 Nov 2026| Pending
+B003| Sara Malik| Manicure| 22 Nov 2026| Confirmed
+B004| Hira Shah| Pedicure| 23 Nov 2026| Pending
+B005| Zainab Ali| Bridal Makeup| 24 Nov 2026| Confirmed
+
+These are illustrative records, not actual customer bookings.
+
+7. Input Validation Test Data
+
+The following inputs can be used to document form validation scenarios in a suitable test application.
+
+Test ID| Input| Expected Result
+VD001| Valid email: ayesha@example.com| Accepted
+VD002| Invalid email: ayesha123| Rejected
+VD003| Empty customer name| Validation error
+VD004| Empty email field| Validation error
+VD005| Missing appointment date| Validation error
+
+8. Security Testing Data
+
+The following examples represent security testing scenarios in an authorized laboratory.
+
+Test ID| Test Input/Scenario| Purpose
+SEC001| Normal text input| Check input handling
+SEC002| Invalid input| Check validation
+SEC003| SQL injection test payload| Assess SQL injection protection
+SEC004| XSS test payload| Assess cross-site scripting protection
+SEC005| Unauthorized access attempt| Assess authorization controls
+
+Security payloads will only be used in authorized practice laboratories.
+
+9. Data Privacy and Safety
+
+- All customer information is fictional.
+- No real passwords or personal information are included.
+- No real customer database is used.
+- Test data is intended only for educational and security assessment purposes.
+- Sensitive information will not be published in the repository.
+
+10. Conclusion
+
+This sample dataset provides realistic business information for the Glow Beauty Salon security assessment.
+
+It can support application scenarios, input validation testing, documentation, and future security assessment tasks.
