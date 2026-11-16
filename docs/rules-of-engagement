@@ -1,1 +1,127 @@
+Rules of Engagement (ROE)
 
+Glow Beauty Salon – Web Application Security Assessment
+
+1. Purpose
+
+The purpose of these Rules of Engagement is to establish the legal, ethical, and technical boundaries for conducting a security assessment of the Glow Beauty Salon web application.
+
+All security testing will be performed in an authorized laboratory environment.
+
+2. Authorized Testing Environment
+
+- Practice Platform: PortSwigger Web Security Academy
+- Platform Website: https://portswigger.net/web-security
+- Testing Environment: Authorized training laboratories.
+- Selected Lab: To be recorded after selection.
+- Project: Glow Beauty Salon Security Assessment.
+
+Only the selected authorized practice laboratory may be tested.
+
+3. Permission and Authorization
+
+1. Testing is permitted only on authorized laboratory targets.
+2. No real production website will be tested without written permission.
+3. Testing must follow the practice platform's terms and conditions.
+4. No third-party systems may be accessed without authorization.
+
+4. Permitted Activities
+
+The following activities are permitted within the authorized laboratory:
+
+- Application navigation and mapping.
+- HTTP request and response analysis.
+- Authentication testing.
+- Authorization testing.
+- Input validation testing.
+- SQL injection practice.
+- Cross-Site Scripting (XSS) practice.
+- Session management assessment.
+- Recording security findings.
+
+5. Prohibited Activities
+
+The following activities are strictly prohibited:
+
+- Attacking unauthorized websites.
+- Denial-of-Service (DoS) attacks.
+- Stealing real customer information.
+- Accessing accounts without authorization.
+- Destroying or deleting data.
+- Phishing real users or employees.
+- Installing malware.
+- Attacking systems outside the defined scope.
+
+6. Testing Data
+
+Only fictional data related to Glow Beauty Salon will be used.
+
+Example:
+
+- Customer: Ayesha Khan
+- Email: ayesha@example.com
+- Service: Facial Treatment
+- Appointment: 20 November 2026
+- Price: PKR 3,500
+
+Real customer information must never be used.
+
+7. Testing Schedule
+
+Testing will follow the project schedule:
+
+- Task 1: Scope and Rules of Engagement.
+- Task 2: Application Mapping.
+- Task 3: Vulnerability Identification and Verification.
+- Task 4: Vulnerability Fixing and Verification.
+- Task 5: Detection Rules.
+- Task 6: Reporting and Handover.
+
+8. Evidence Collection
+
+For each security test:
+
+- Record the test description.
+- Record the target laboratory.
+- Capture relevant screenshots.
+- Document expected and actual results.
+- Record identified vulnerabilities.
+- Avoid including passwords, personal information, or sensitive tokens in public evidence.
+
+9. Incident and Stop Conditions
+
+Testing must stop immediately if:
+
+- Unexpected access to real or unauthorized data occurs.
+- Testing affects systems outside the authorized scope.
+- An activity could damage the environment.
+- The practice platform indicates that testing is prohibited.
+
+The issue must be documented and reported appropriately.
+
+10. Reporting Requirements
+
+All findings will be documented with:
+
+- Vulnerability name.
+- Description.
+- Affected laboratory feature.
+- Evidence.
+- Potential impact.
+- Recommended solution.
+
+11. Ethical Responsibilities
+
+The assessment will follow responsible security testing practices.
+
+The tester will respect privacy, protect information, follow authorization boundaries, and avoid causing harm.
+
+12. Conclusion
+
+These Rules of Engagement provide a safe and controlled framework for the Glow Beauty Salon security assessment.
+
+All activities will be limited to authorized practice environments. These rules will guide the remaining project tasks and ensure responsible security testing.
+
+Prepared by: Musayab Raza
+Role: Cyber Security Intern
+Client: Glow Beauty Salon
